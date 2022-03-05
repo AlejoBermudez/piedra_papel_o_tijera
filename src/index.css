@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Amatic SC";
+  background-image: url(https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c29mdCUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.title {
+  margin: 0px;
+  width: 180px;
+  height: 250px;
+  font-size: 65px;
+  margin-top: 15px;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .title {
+    font-size: 90px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
